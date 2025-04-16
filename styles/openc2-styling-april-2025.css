@@ -112,6 +112,10 @@ blockquote {
 /* dl 2025-04-11: basic page formatting with page number at bottom center */
 @page {
     page-orientation: portrait;
+    margin-top: 0.75in;
+    margin-bottom: 1.0in;
+    margin-left: 0.7in;
+    margin-right: 0.7in;
     @bottom-center {
         content: counter(page);
         font-size: 8pt;
