@@ -116,6 +116,7 @@ blockquote {
     margin-bottom: 1.0in;
     margin-left: 0.7in;
     margin-right: 0.7in;
+    line-height: 1.15;
     @bottom-center {
         content: counter(page);
         font-size: 8pt;
